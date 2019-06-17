@@ -53,8 +53,48 @@ The title of your blog post will be the first line of your markdown which should
 
 ```markdown
 # This will be your post title
+
+And here starts your content.
 ```
 
 ### Separating the Post's Preview Part
 
-Usually you want to read 
+Usually you want to split your post into two parts: A short TL;DR which is shown in the list of posts as well as on the top of the actual post view and the remaining content. You can easily split these parts with a horizontal line (`---`):
+
+```markdown
+# This will be your post title
+
+TL;DR
+
+---
+
+The remaining content of your post.
+```
+
+### Including Images
+
+For images you may use relative paths within your repository. [pushed.to](http://pushed.to) will properly resolve the relative paths. Every relative path **must** start with `.` or `..`.
+
+```markdown
+![Some image](./images/pic-1.jpg)
+```
+
+### Linking Topics
+
+A post may be linked/ tagged with topics. To link your post with topics, use a code-block of type `topics` anywhere in your Markdown file. To work properly the code-block whould be after an empty line, and another empty line after it. A best bractice is to include this blog before your TL;DR/ Content separator:
+
+```markdown
+# This will be your post title
+
+TL;DR
+
+```topic
+topic-a, topic-b
+```
+
+---
+
+The remaining content of your post.
+```
+
+The `topic` code-block will not be printed in your post. It will be used to display tags and to find the post when filtering for a topic.
