@@ -4,7 +4,7 @@ This is a template for a [pushed.to](http://pushed.to) blog.
 
 ## Get Started
 
-Fork this repository into your own GitHub user or organization space. When forked you can visit [pushed.to/GIT_USERNAME/GIT_PROJECT_NAME](http://pushed.to/GIT_USERNAME/GIT_PROJECT_NAME).
+Fork this repository into your own GitHub user or organization space. When forked you can visit [pushed.to/GIT_USERNAME/GIT_PROJECT_NAME](http://pushed.to/GIT_USERNAME/GIT_REPOSITORY_NAME).
 
 ## .blog Reference
 
