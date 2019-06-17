@@ -83,7 +83,7 @@ For images you may use relative paths within your repository. [pushed.to](http:/
 
 A post may be linked/ tagged with topics. To link your post with topics, use a code-block of type `topics` anywhere in your Markdown file. To work properly the code-block whould be after an empty line, and another empty line after it. A best bractice is to include this blog before your TL;DR/ Content separator:
 
-```markdown
+````markdown
 # This will be your post title
 
 TL;DR
@@ -95,6 +95,6 @@ topic-a, topic-b
 ---
 
 The remaining content of your post.
-```
+````
 
 The `topic` code-block will not be printed in your post. It will be used to display tags and to find the post when filtering for a topic.
