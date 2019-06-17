@@ -41,6 +41,8 @@ The `.blog` contains configurations for your blog. The template\`s `.blog`-file 
 * **analyticsId** - Your own tracking id for [Google Analytics](https://analytics.google.com/analytics/web/).
 * **disqusId** - Your own project id from [Disqus](https://disqus.com/), if not set a default id will be used to render comments section.
 
+> **Note** Other information like your name, location, website, etc. is taken from your GitHub profile.
+
 ## Writing Posts
 
 Every markdown file you place in the repository is considered to be a post (except `README.md`). You can write any Markdown which also works on GitHub; [pushed.to](http://pushed.to) will use GitHub's Markdown rendering to render your blog, thus you may also use any kind of source code in your GitHub. 
