@@ -43,4 +43,18 @@ The `.blog` contains configurations for your blog. The template\`s `.blog`-file 
 
 ## Writing Posts
 
-Every markdown file you place in the repository is considered to be a post (except `README.md`).
+Every markdown file you place in the repository is considered to be a post (except `README.md`). You can write any Markdown which also works on GitHub; [pushed.to](http://pushed.to) will use GitHub's Markdown rendering to render your blog, thus you may also use any kind of source code in your GitHub. 
+
+Apart from that there are some conventions you can use to properly interpret your posts.
+
+### Defining a Post Title
+
+The title of your blog post will be the first line of your markdown which should be a `H1` headline:
+
+```markdown
+# This will be your post title
+```
+
+### Separating the Post's Preview Part
+
+Usually you want to read 
