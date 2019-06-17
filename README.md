@@ -6,7 +6,7 @@ This is a template for a [pushed.to](http://pushed.to) blog.
 
 Fork this repository into your own GitHub user or organization space. When forked you can visit [pushed.to/GIT_USERNAME/GIT_PROJECT_NAME](http://pushed.to/GIT_USERNAME/GIT_PROJECT_NAME).
 
-## `.blog` Reference
+## .blog Reference
 
 The `.blog` contains configurations for your blog. The template\`s `.blog`-file contains the following settings:
 
