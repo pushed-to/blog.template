@@ -45,7 +45,9 @@ The `.blog` contains configurations for your blog. The template\`s `.blog`-file 
 
 ## Writing Posts
 
-Every markdown file you place in the repository is considered to be a post (except `README.md`). You can write any Markdown which also works on GitHub; [pushed.to](http://pushed.to) will use GitHub's Markdown rendering to render your blog, thus you may also use any kind of source code in your GitHub. 
+Every markdown file you place in the master branch of your repository is considered to be a post (except `README.md`). [pushed.to](http://pushed.to) will update your blog within 15 minutes automatically. If you want to update your blog immediately you may also call `http://pushed.to/YOUR_USERNAME/YOUR_REPO/update`.
+
+You can write any Markdown which also works on GitHub; [pushed.to](http://pushed.to) will use GitHub's Markdown rendering to render your blog, thus you may also use any kind of source code in your post which is supported/ rendered by GitHub. 
 
 Apart from that there are some conventions you can use to properly interpret your posts.
 
